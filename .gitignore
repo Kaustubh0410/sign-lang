@@ -1,0 +1,52 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML datasets
+data/
+*.npy
+
+# ML models
+
+*.h5
+*.keras
+*.onnx
+*.pkl
+*.joblib
+
+# Node
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE/history
+.history/
+.vscode/
+
+node_modules/
+.history/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+*.log
+data/
+backend/datasets/
+.vscode/
+
+# Large model files are handled by Git LFS
+backend/models/best_gesture_model.pt
+backend/models/final_gesture_model.pt

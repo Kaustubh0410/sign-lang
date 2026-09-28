@@ -1,0 +1,2 @@
+backend/models/gesture_model.pt filter=lfs diff=lfs merge=lfs -text
+backend/models/nlg_model.pt filter=lfs diff=lfs merge=lfs -text
